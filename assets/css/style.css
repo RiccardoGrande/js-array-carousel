@@ -29,14 +29,25 @@
 
 }
 
-.prev{
+button{
 
     border: none;
     border-radius: 50%;
 }
 
-.images{
+/* .images{
 
     width: 50%;
-    height: auto;
+    height: 100px;
+} */
+
+img{
+
+    width: 100%;
+    
+
 }
+
+/* .images img:not(.active) {
+    display: none;
+  } */
