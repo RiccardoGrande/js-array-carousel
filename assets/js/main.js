@@ -21,8 +21,20 @@ for (let i = 0; i < images.length; i++) {
 
     console.log(imgElement);
 
+
     //inserisco l'immagine in pagina tramite adjacent html
     imagesElement.insertAdjacentHTML('beforeend', imgElement)
+
+    if (images.length === undefined ) {
+        
+        break;
+
+    } else {
+        
+
+        continue;
+
+    }
 }
 
 
@@ -82,3 +94,19 @@ prevEl.addEventListener('click', function () {
   nextImage.classList.add('active')
 
 })
+
+/* // SE la mia slide va oltre il numero di immagini 
+if (currentSlide > 3) {
+    
+     break; 
+
+}
+
+
+//altrimenti continua a scorrere
+else {
+
+     continue; 
+
+}
+ */
