@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+.container{
 
+    margin: 5%;
+
+}
 
 
 
 .row{
 
+    
    display: flex;
    align-items: center;
    justify-content: center;
@@ -17,10 +22,21 @@
 
 }
 
+.col{
 
+    width: 50%;
+    height: 200px;
 
-/* img{
+}
+
+.prev{
+
+    border: none;
+    border-radius: 50%;
+}
+
+.images{
 
     width: 50%;
     height: auto;
-} */
+}
