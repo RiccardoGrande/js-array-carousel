@@ -33,6 +33,7 @@ button{
 
     border: none;
     border-radius: 50%;
+    
 }
 
 /* .images{
@@ -48,6 +49,6 @@ img{
 
 }
 
-.images img:not(.active) {
+/* .images img:not(.active) {
     display: none;
-  }
+  } */
