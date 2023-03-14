@@ -29,12 +29,7 @@ for (let i = 0; i < images.length; i++) {
         
         break;
 
-    } else {
-        
-
-        continue;
-
-    }
+    } 
 }
 
 
