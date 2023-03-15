@@ -17,7 +17,7 @@ console.log(imagesElement);
 //loop dell'immagine e aggiungo una nuova immagine alla DOM
 for (let i = 0; i < images.length; i++) {
     const imgSrc = images[i];
-    const imgElement = `<img ${i === activeImage ? 'active' : ''}" src="${imgSrc}" alt="">`
+    const imgElement = `<img class = "${i === activeImage ? 'active' : ''}" src="${imgSrc}" alt="">`
 
     console.log(imgElement);
 
@@ -25,11 +25,16 @@ for (let i = 0; i < images.length; i++) {
     //inserisco l'immagine in pagina tramite adjacent html
     imagesElement.insertAdjacentHTML('beforeend', imgElement)
 
-    if (images.length === undefined ) {
+    if (i === undefined ) {
         
         break;
 
-    } 
+    } else {
+        
+
+        continue;
+
+    }
 }
 
 
